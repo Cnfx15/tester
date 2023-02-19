@@ -57,7 +57,7 @@ static DialogMessageButton address_screen(DialogsApp* dialogs, DialogMessage* me
 static DialogMessageButton compliance_screen(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_text = "For all compliance\n"
+    const char* screen_header = "For all compliance\n"
                               "certificates please visit:\n"
                               "www.flipp.dev/compliance";
 
