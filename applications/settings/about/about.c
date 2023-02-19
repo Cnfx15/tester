@@ -44,7 +44,7 @@ static DialogMessageButton address_screen(DialogsApp* dialogs, DialogMessage* me
 
     const char* screen_text = "Flipper Devices Inc\n"
                               "Suite B #551, 2803\n"
-                              "MADPhiladelphia Pike, Claymont\n"
+                              "MAD Pike, Claymont\n"
                               "DE, USA 19703\n";
 
     dialog_message_set_text(message, screen_text, 0, 10, AlignLeft, AlignTop);
