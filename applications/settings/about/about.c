@@ -73,7 +73,7 @@ static DialogMessageButton unleashed_info_screen(DialogsApp* dialogs, DialogMess
 
     const char* screen_header = "Dtox Tester Firmware\n";
 
-    const char* screen_text = "Play with caution.\n"
+    const char* screen_header = "Play with caution.\n"
                               "Not for illegal use!";
 
     dialog_message_set_header(message, screen_header, 0, 0, AlignLeft, AlignTop);
