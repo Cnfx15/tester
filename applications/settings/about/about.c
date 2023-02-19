@@ -47,7 +47,7 @@ static DialogMessageButton address_screen(DialogsApp* dialogs, DialogMessage* me
                               "MADPhiladelphia Pike, Claymont\n"
                               "DE, USA 19703\n";
 
-    dialog_message_set_text(message, screen_text, 0, 0, AlignLeft, AlignTop);
+    dialog_message_set_text(message, screen_text, 0, 10, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
     dialog_message_set_text(message, NULL, 0, 0, AlignLeft, AlignTop);
 
@@ -71,13 +71,13 @@ static DialogMessageButton compliance_screen(DialogsApp* dialogs, DialogMessage*
 static DialogMessageButton unleashed_info_screen(DialogsApp* dialogs, DialogMessage* message) {
     DialogMessageButton result;
 
-    const char* screen_header = "Unleashed Firmware\n";
+    const char* screen_header = "Dtox Tester Firmware\n";
 
     const char* screen_text = "Play with caution.\n"
                               "Not for illegal use!";
 
     dialog_message_set_header(message, screen_header, 0, 0, AlignLeft, AlignTop);
-    dialog_message_set_text(message, screen_text, 0, 26, AlignLeft, AlignTop);
+    dialog_message_set_text(message, screen_text, 0, 10, AlignLeft, AlignTop);
     result = dialog_message_show(dialogs, message);
     dialog_message_set_header(message, NULL, 0, 0, AlignLeft, AlignTop);
     dialog_message_set_text(message, NULL, 0, 0, AlignLeft, AlignTop);
