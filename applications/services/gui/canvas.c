@@ -126,9 +126,9 @@ void canvas_set_font(Canvas* canvas, Font font) {
     furi_assert(canvas);
     u8g2_SetFontMode(&canvas->fb, 1);
     if(font == FontPrimary) {
-        u8g2_SetFont(&canvas->fb, u8g2_font_crox5tb_tr);
+        u8g2_SetFont(&canvas->fb, u8g2_font_VCR_OSD_tr);
     } else if(font == FontSecondary) {
-        u8g2_SetFont(&canvas->fb, u8g2_font_crox5tb_tr);
+        u8g2_SetFont(&canvas->fb, u8g2_font_VCR_OSD_tr);
     } else if(font == FontKeyboard) {
         u8g2_SetFont(&canvas->fb, u8g2_font_profont11_mr);
     } else if(font == FontBigNumbers) {
