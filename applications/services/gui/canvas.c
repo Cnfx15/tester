@@ -126,7 +126,7 @@ void canvas_set_font(Canvas* canvas, Font font) {
     furi_assert(canvas);
     u8g2_SetFontMode(&canvas->fb, 1);
     if(font == FontPrimary) {
-        u8g2_SetFont(&canvas->fb, u8g2_font_micro_tr);
+        u8g2_SetFont(&canvas->fb, u8g2_font_ncenB18_tr);
     } else if(font == FontSecondary) {
         u8g2_SetFont(&canvas->fb, u8g2_font_haxrcorp4089_tr);
     } else if(font == FontKeyboard) {
